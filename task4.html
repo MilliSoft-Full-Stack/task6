@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .txt {
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        .blue-row {
+            height: 30px;
+            background-color: blue;
+            animation-name: move;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes move {
+            0% {
+                width: 100px;
+            }
+
+            33% {
+                width: 125px;
+            
+            }
+
+            66% {
+                width: 150px;
+            }
+
+            100% {
+                width: 100px;
+            
+            }
+        }
+
+        .steps {
+            animation-timing-function: steps(1);
+        }
+
+
+    </style>
+</head>
+<body>
+    <span style="font-weight: bold;">Animated</span>
+    <br><br>
+    <div class="txt">
+        <div class="blue-row"></div>
+    </div>
+
+<br>
+
+    <span style="font-weight: bold;"> Not Animated</span>
+    <br><br>
+    <div class="txt">
+        <div class="blue-row steps"></div>
+    </div>
+</body>
+</html>
