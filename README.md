@@ -19,3 +19,8 @@
  - [task8.html](https://millisoft-full-stack.github.io/task6/task8.html)
 
  - [task9.html](https://millisoft-full-stack.github.io/task6/task9.html)
+
+
+target:
+
+https://drive.google.com/drive/folders/1fsFTMroYTpqcJiRe82aVBPfAJJXDrKPU
